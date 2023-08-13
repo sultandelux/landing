@@ -1,0 +1,29 @@
+.particle-image {
+    position: absolute;
+    z-index: 100;
+}
+
+.particle-image.one {
+    top: 0px;
+    left: 0px;
+}
+
+.particle-image.two {
+    top: -20px;
+    left: 45%;
+}
+
+.particle-image.three {
+    top: 13%;
+    right: 15px;
+}
+
+.particle-image.four {
+    right: 20px;
+    bottom: 20px;
+}
+
+.particle-image.five {
+    bottom: 60px;
+    left: 20px;
+}

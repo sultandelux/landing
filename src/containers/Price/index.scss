@@ -1,0 +1,32 @@
+
+.matrix-background {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blue-pill {
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    top: 2%;
+    left: 80%;
+    @media (max-width: 420px) {
+        left: 75%;
+    }
+}
+
+.red-pill {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 2%;
+    left: 83%;
+    @media (max-width: 420px) {
+        left: 80%;
+    }
+}
+
+.neon-pill {
+    width: 50px;
+    height: 50px;
+}

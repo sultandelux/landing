@@ -1,0 +1,114 @@
+@keyframes left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+
+.animate-left {
+  animation-name: left;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+/* .mobimg {
+  display:inline-block;
+  width:768px;
+  margin:0 auto;
+} */
+
+
+@media screen and (min-width: 768px) {
+  .wppimg {
+    width: 100px;
+  }
+  .mobimg {
+    width: 50px;
+  }
+  .sliding-text{
+    height: 10px;
+    transform: rotate(-0deg);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 900px;
+    margin-left: 0px;
+  }
+  
+  .inner-sliding-text{
+    animation: text 23s linear infinite;
+    animation-play-state: running;
+    /* padding-left: 100%; */
+    width: 900px;
+    white-space: nowrap;
+    transform: rotate(-0deg);
+  }
+  
+  .sliding-text span{
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-overflow: clip;
+    font-size: 40px;
+    line-height: 135%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sliding-text{
+    height: 80px;
+    transform: rotate(-5deg);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 400px;
+  }
+  
+  .inner-sliding-text{
+    animation: text 23s linear infinite;
+    animation-play-state: running;
+    padding-left: 0%;
+    width: 200px;
+    white-space: nowrap;
+    transform: rotate(-0deg);
+  }
+  
+  .sliding-text span{
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    text-overflow: clip;
+    font-size: 30px;
+    line-height: 135%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+  .mobimg {
+    width: 15%;
+  }
+  .wppimg {
+    width: 30%;
+  }
+}
+
+@keyframes text {
+  0%{
+    transform: translateX(0%);
+  }
+  
+  100%{
+    transform: translateX(-588%);
+  }
+}
+
+
+

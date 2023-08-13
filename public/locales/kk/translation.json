@@ -1,0 +1,242 @@
+{
+  "main": {
+    "hero": {
+      "menu1": "Жобалар",
+      "mini": "Сенің болашақ командаң",
+      "head": "Startup Studio",
+      "line1": "3-4 аптада дайын демо",
+      "line2": "Құны ТЗ дайындау кезінде",
+      "line3": "3 ай тегін тех қолдау",
+      "line4": "Жеке программистер командасы",
+      "call": "Тапсырыс қалдырамын",
+      "rabbit": "follow the white rabbit...",
+      "agreement": "Коммерциялық Келісімшарт"
+    },
+    "tabs": {
+      "title1": "Цифрлық продактты алып,  іске қос",
+      "desc1": "Профессионалдық вендорлардан келген лендингдер, мобильді қосымшалар, графикалық және логотиптерге қолжетімділік",
+      "title2": "Профессионалдық вендор болу",
+      "desc2": "Веб-мобильді қосымшаларыңызды, графикалық арт және видеоларыңызды жариялаңыз және цифрлы маркетплейсте сатылымдарды көбейт"
+    },
+    "clone": "Кез келген қосымша клонын жасаймыз:",
+    "slogan": "Сайт деген жақсы. Қосымша одан да керемет",
+    "call": "Жаңа жобаны бастау",
+    "feature1": {
+      "title": "Барлық тегін бонустар",
+      "text": "Тегін хостинг, серверлерде орналастыру, Google Play, AppStore жариялау. Тегін домен конфигурациялары."
+    },
+    "alert": {
+      "info": "Digital жұмыстар сатылатын маркетплейс (сайт, қосымша and art)",
+      "call": "Карап көру"
+    },
+    "banner": "Тегін консультация алу",
+    "feature2": {
+      "title": "Барлығы келісім бойынша",
+      "text": "Заңдық келісім. Техникалық талаптарды тегін жасау. Онлайн-кездесу және шартқа қол қою мүмкіндігі."
+    },
+    "feature3": {
+      "title": "Барлығы қосылған",
+      "text": "Админка + iOS және Android қосымшалары + веб-қосымшасы + тегін лендинг"
+    },
+    "recents": {
+      "mini": "Соңғы жобалар",
+      "jeted": {
+        "title": "Онлайн-курстарға арналған платформа. Jeted.kz",
+        "description": "Админка, веб-бағдарлама, Android бағдарламасы, тестілеу және сертификаттау фичасы.",
+        "stats": {
+          "line1": "Барлық студенттер",
+          "line2": "Курстар саны",
+          "line3": "Мобильді орнатылымдар"
+        }
+      },
+      "factchek": {
+        "title": "Жаңалықтар, блогтар.Facktchek.kz",
+        "description": "Айдарлар. Донат фичасы.  Блог бетінің және блог веб-торабының дизайны. Жаңалықтар беті және жаңалықтар сайтының дизайны. Пост-слайдер және карусель. "
+      },
+      "ecomero": {
+        "title": "Ecomero. Сатып алуға арналған платформа + Админка + iOS және Android қосымшалары",
+        "description": "Дүкен орталығы. Тауарлар санаты, жеткізу, онлайн төлем, субкатегиялар. Купон фичасы."
+      },
+      "turan": {
+        "title": "Туран-Авто. Көлік сатып алуға арналған платформа + Админка + iOS және Android қосымшалары",
+        "description": "Дүкен орталығы. Тауарлар санаты, жеткізу, онлайн төлем, субкатегиялар. Купон фичасы."
+      },
+      "more": "Басқа да қосымшалар"
+    },
+    "team": {
+      "title": "App makers командасы",
+      "text": "Идеяларды жүзеге асыратын эксперттер."
+    },
+    "price": {
+      "title": "Red or Blue ?",
+      "standard": {
+        "name": "СТАНДАРТ",
+        "initial": "бастапқы баға",
+        "description": "Лендинг, шағын бизнеске арналған корпоративтік сайттар.",
+        "feature1": "Жеке логотип, SEO",
+        "feature2": "Адаптивті сайт, макс 10 бет",
+        "feature3": "Контентпен толтыру, 3 тілге дейін",
+        "feature4": "Лид-генератор, Telegram-бот",
+        "call": "Стандарт тарифпен бастау"
+      },
+      "enterprise": {
+        "name": "БИЗНЕС",
+        "initial": "бастапқы баға",
+        "description": "Платформа, дүкендер және т.б. Кәсіпорындар үшін. Админ басқару + Вэб + Android және iOS қосымшалары.",
+        "feature1": "Бизнес логотип, UI, UX дизайн",
+        "feature2": "Адаптивті web-mobile қосымшалар",
+        "feature3": "Тестілеу. Google Play, AppStore жарияланымдар",
+        "feature4": "Хостинг, домен конфигурациялары",
+        "call": "Бизнес тарифпен бастау"
+      }
+    },
+    "count_stats": {
+      "title": "Some Count Stats Title"
+    },
+    "journey": {
+      "title": "Жобаңыздағы version control"
+    },
+    "differentation": {
+      "title1": "Қосымшаларды әзірлеу",
+      "desc1": "Description 1.",
+      "title2": "Орнату",
+      "desc2": "Description 2.",
+      "title3": "UX дизайн",
+      "desc3": "Description 3.",
+      "title4": "Бұлтты хостинг",
+      "desc4": "Description 4.",
+      "title5": "Қолданушыларға қызмет көрсету",
+      "desc5": "Description 5.",
+      "title6": "10х сатылым",
+      "desc6": "Description 6."
+    },
+    "technology": {
+      "title": "Қолданылатын технологиялар"
+    },
+    "bubbles": {
+      "title": "Цифрлы продактті нольден бастап жасау",
+      "desc": "Табысты ідеяны табу мен анықтауға көмектесеміз",
+      "point1": "Продактті шығаруға арналған жоспар дайындаймыз",
+      "point2": "MVP дамыту және жасырын бета-тестін жүргізу",
+      "point3": "Нарыққа MVP шығарамыз",
+      "point4": "Продактті дамыту және оны масштабтауға көмектесу",
+      "point5": "Нәтижесінде: дайын бизнес."
+    },
+    "mission": "From Undercorn to Unicorn",
+    "address": "Қазақстан, Алматы қаласы, 11-ықшам ауданы, 3/1, БО Аяла",
+    "language": "ТІЛ",
+    "en": "Ағылшынша",
+    "kk": "Қазақша",
+    "ru": "Орысша"
+  },
+  "apps": {
+    "home": "Басты бет",
+    "title": "Веб-мобильді қосымшалар",
+    "description": "Қосымшалар, бағдарламалар, скрипттар",
+    "jeted": {
+      "tech": "Android, iOS, Веб + Админка",
+      "link": "Jeted.kz",
+      "descript": "Онлайн-курстарға арналған платформа. Udemy клон"
+    },
+    "bloomzed": {
+      "tech": "Android, iOS",
+      "link": "bloomzed.kz",
+      "descript": "Bloomzed application for financial transactions. Kaspi clone"
+    },
+    "taxi": {
+      "tech": "Android, iOS",
+      "link": "taxi.com",
+      "descript": "Taxi app. Uber clone"
+    },
+    "delivery": {
+      "tech": "Android, iOS",
+      "link": "delivery.com",
+      "descript": "Delivery application. Indriver clone"
+    },
+    "homester": {
+      "tech": "Android, iOS",
+      "link": "homester.com",
+      "descript": "Home, apartment sell/buy application. Krisha clone"
+    },
+    "opera": {
+      "tech": "Android, iOS",
+      "link": "opera.ru",
+      "descript": "Opera application. Eventbrite clone"
+    },
+    "investorda": {
+      "tech": "Laravel Web + Admin",
+      "link": "Investorda.kz",
+      "descript": "Investorda application. Financial investment website"
+    },
+    "offen": {
+      "tech": "Wordpress Web + Admin",
+      "link": "offenegesellschaft.org",
+      "descript": "Offenegesellschaf. Magazine webiste"
+    },
+    "beauty": {
+      "tech": "PHP Web + Admin",
+      "link": "beautyindustry.kz",
+      "descript": "ҚАЗАҚСТАН РЕСПУБЛИКАСЫНЫҢ СҰЛУЛЫҚ ӨНЕРКӘСІБІНІҢ ҚАУЫМДАСТЫҒЫ web. Industry web"
+    },
+    "almaty": {
+      "tech": "PHP Web + Admin",
+      "link": "almaty-akshamy.kz",
+      "descript": "Алматы-ақшамы. News portal"
+    },
+    "caspian": {
+      "tech": "Wordpress Web + Admin",
+      "link": "caspianlife.kz",
+      "descript": "Caspian Life. Entertainment, news portal"
+    },
+    "mediaschool": {
+      "tech": "Wordpress Web + Admin",
+      "link": "mediaschool.kz",
+      "descript": "Курс ONLINE MediaSchool"
+    },
+    "presenter": {
+      "tech": "Android, iOS, Web + Admin",
+      "link": "presenter.ru",
+      "descript": "Presenter application. Entertainment app"
+    },
+    "ecomero": {
+      "tech": "Android, iOS, Веб + Админка",
+      "link": "Ecomero",
+      "descript": "Сауда алаңы"
+    },
+    "factcheck": {
+      "tech": "Веб + Админка",
+      "link": "Factcheck.kz",
+      "descript": "Жаңалықтар, блог. Донат фичасы."
+    },
+    "kokaprint": {
+      "tech": "Веб + Админка",
+      "link": "Kokaprint.kz",
+      "descript": "Сауда торабы. Бағаны білу фичасы."
+    },
+    "dict": {
+      "tech": "Android + iOS",
+      "link": "Қазақ есімдерінің сөздігі",
+      "descript": "Қазақ есімдерінің этимологиясы."
+    },
+    "kontakty": {
+      "tech": "Android, iOS, Веб + Админка",
+      "link": "Kontakty.kz",
+      "descript": "Контактілеріңізбен бөліс."
+    },
+    "skillzhasapp": {
+      "tech": "Android, iOS, Веб + Админка",
+      "link": "Skill Zhasapp",
+      "descript": "Coursera клон"
+    },
+    "kazfarm": {
+      "tech": "Веб + Админка",
+      "link": "KazFarm.kz, KazAgro.kz",
+      "descript": "Көрме"
+    },
+    "natizheli": {
+      "tech": "Веб",
+      "link": "Natizheli Forum",
+      "descript": "Тильдада жасалынған форум сайт"
+    }
+  }
+}

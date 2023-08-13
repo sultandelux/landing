@@ -1,0 +1,26 @@
+$banner-img: 'Assets/images/banner.png';
+
+.container {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url($banner-img) repeat-x;
+  height: 560px;
+  width: 3076px;
+  animation: slide 60s linear infinite;
+
+  @media (max-width: 450px) {
+    height: 350px;
+    background-size: auto 350px;
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-1692px, 0, 0);
+  }
+}

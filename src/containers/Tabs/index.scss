@@ -1,0 +1,178 @@
+$border-color: rgb(214, 213, 213);
+$border-active: rgb(64, 181, 64);
+$red: #eb3333;
+$orange: #fb9b00;
+$green: #60964f;
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.25s;
+    padding: 0 2rem;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 1rem;
+    }
+}
+
+.content-container {
+    flex: 1;
+}
+
+.--active {
+    pointer-events: none !important;
+}
+
+.content-btn {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    pointer-events: auto;
+    cursor: pointer;
+    /* border: 1px solid var(--color-highlight); */
+    border: 1px solid $border-color;
+    padding: 1.75em;
+    padding-top: calc(1.75em + 3px);
+    border-radius: 0.75em;
+    margin: 0 0.75em 0.75em 0;
+
+    &::after {
+        visibility: hidden;
+        content: "";
+        position: absolute;
+        border-radius: inherit;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        border: none;
+        border: 1px solid $border-color;
+        border-top: 3px solid $border-active;
+    }
+}
+
+.next {
+    position: relative;
+    width: 100%;
+    background: red;
+    display: none;
+    margin-left: 0.6ch;
+
+    &::before {
+        position: absolute;
+        content: "🐰";
+        animation-name: peekaboo;
+        animation-duration: 0.25s;
+        width: 2ch;
+        text-align: center;
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+        background: white;
+        border-top: 1px solid black;
+        top: 1.4ch;
+        width: 2ch;
+        height: 1.5rem;
+    }
+}
+
+.--active + .content-btn .next {
+    display: inline !important;
+}
+
+.content-btn.--active:after {
+    visibility: visible;
+}
+
+.fs-sm {
+    font-size: 1.05rem;
+    line-height: 1.4em;
+}
+
+.demo-aside {
+    padding: 1em;
+    background: #e5e5e5;
+    border: 1px solid $border-color;
+    border-radius: 0.75rem;
+    flex: 1.75;
+    flex-shrink: 2;
+    overflow: hidden;
+
+    @media screen and (max-width: 300px) {
+        img {
+            height: 15em;
+        }
+      }
+      @media screen and (min-width: 900px) {
+        img {
+            height: 30em;
+        }
+      }
+   
+}
+
+
+.demo-head {
+    display: flex;
+    height: 2em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.demo-head__btns {
+    display: flex;
+    width: 3em;
+    height: 100%;
+    justify-content: space-between;
+    margin-right: 0.75em;
+
+    & > * {
+        width: 0.65em;
+        height: 0.65em;
+        border-radius: 50%;
+    }
+
+    .red {
+        background: $red;
+    }
+    .orange {
+        background: $orange;
+    }
+    .green {
+        background: $green;
+    }
+}
+
+.demo-head__bar {
+    padding: 0.5em 1em;
+    border-radius: 5em;
+    line-height: 0.89;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.05);
+
+    span {
+        color: $green;
+    }
+}
+
+.demo__dt {
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes peekaboo {
+    0% {
+        transform: translateY(60%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

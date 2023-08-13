@@ -1,0 +1,16 @@
+.count-up {
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(to bottom, #bdbdbd, rgba(255, 254, 254, 0.2));
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}

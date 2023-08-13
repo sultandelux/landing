@@ -1,0 +1,52 @@
+$rabbit: 'Assets/images/rabbit.png';
+
+.sticky-rabbit {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    animation-duration: 0.25s;
+    background: url($rabbit) no-repeat;
+    background-size: 8rem;
+    background-position: center bottom -2.3rem;
+    animation-fill-mode: forwards;
+    z-index: 100;
+}
+
+.show-rabbit {
+    animation-name: show-rabbit;
+}
+
+.hide-rabbit {
+    animation-name: hide-rabbit;
+}
+
+@keyframes show-rabbit {
+    0% {
+        background-position: center bottom -10rem;
+    }
+    100% {
+        background-position: center bottom -2.3rem;
+    }
+}
+
+@keyframes hide-rabbit {
+    0% {
+        background-position: center bottom -2.3rem;
+    }
+    100% {
+        background-position: center bottom -10rem;
+    }
+}
+
+.Typewriter {
+    color: #00FF00;
+    background-color: black;
+    display: inline;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
