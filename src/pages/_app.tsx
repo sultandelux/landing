@@ -21,6 +21,12 @@ import '@/assets/css/scrollbar.css';
 import '@/assets/css/swiper-carousel.css';
 import '@/assets/css/pagination.css';
 import '@/assets/css/globals.css';
+import '@/assets/css/tabs.scss';
+import '@/assets/css/clones.scss';
+import '@/assets/css/differentation.scss';
+import '@/assets/css/countup.scss';
+import '@/assets/css/infinite.scss';
+import '@/assets/css/technology.scss';
 
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';

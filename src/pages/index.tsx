@@ -14,8 +14,19 @@ import routes from '@/config/routes';
 import client from '@/data/client';
 import { dehydrate, QueryClient } from 'react-query';
 import { API_ENDPOINTS } from '@/data/client/endpoints';
-import CategoryFilter from '@/components/product/category-filter';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+
+import Clones from '@/components/Clones';
+import Features from '@/containers/Features';
+import Recents from '@/containers/Recents';
+import Team from '@/containers/Team';
+import Call from '@/components/Call';
+import Journey from '@/containers/Journey';
+import Slideout from '@/containers/Slideout';
+import Differentation from '@/containers/Differentation';
+import Bubbles from '@/containers/Bubbles';
+import Tabs from '@/containers/Tabs';
+import Splitter from '@/containers/Splitter';
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const queryClient = new QueryClient();
@@ -39,7 +50,7 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     ]);
     return {
       props: {
-        ...(await serverSideTranslations(locale!, ['common'])),
+        ...(await serverSideTranslations(locale!, ['common', 'translation'])),
         dehydratedState: JSON.parse(JSON.stringify(dehydrate(queryClient))),
       },
       revalidate: 60, // In seconds
@@ -82,21 +93,18 @@ const Home: NextPageWithLayout = () => {
       />
       <Tabs />
       <Clones />
-
       <Recents />
       <Differentation />
       {/* <Treadmill /> */}
-      <Call />
-
+      {/* <Call />
       <Features />
       <Bubbles />
-
       <Team />
       <Journey />
       <Slideout />
       <div className=' flex relative mt-6 px-15 mx-auto max-w-4xl xl:px-50 justify-center ml- mb-4 max-w-lg overflow-hidden rounded-lg rounded-md rounded-sm'>
         <Splitter />
-      </div>
+      </div> */}
       {/* <PriceNew /> */}
       {/* <MultiForm /> */}
       {/* <Price /> */}
