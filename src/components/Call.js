@@ -1,11 +1,11 @@
-import Creation from 'Assets/images/creation.png'
-import whatsappchat from 'Assets/images/whatsappchat.png'
-import whatsappicon from 'Assets/images/whatsapp-logo.png'
-import clickicon from 'Assets/images/click.png'
-import whatsappclick from 'Assets/images/whatsappclick.png'
+import Creation from '@/assets/images/creation.png'
+import whatsappchat from '@/assets/images/whatsappchat.png'
+import whatsappicon from '@/assets/images/whatsapp-logo.png'
+import clickicon from '@/assets/images/click.png'
+import whatsappclick from '@/assets/images/whatsappclick.png'
 import { useTranslation } from 'react-i18next'
 import Highlighter from 'react-highlight-words'
-import './styles.css';
+
 export default function Call() {
   const { t } = useTranslation()
   return (

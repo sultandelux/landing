@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import './index.scss'
 
 const Journey = () => {
   const { t } = useTranslation()

@@ -8,7 +8,7 @@ import sitePicture from './block.svg'
 
 import imgBackground1 from './block.png'
 import imgBackground2 from './block.png'
-import turan from 'Assets/images/apps/turan.png'
+import turan from '@/assets/images/apps/turan.png'
 import './index.scss'
 
 

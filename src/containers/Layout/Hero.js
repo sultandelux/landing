@@ -1,4 +1,4 @@
-import Prototype from 'Assets/images/prototype.gif'
+import Prototype from '@/assets/images/prototype.gif'
 import { useTranslation } from 'react-i18next'
 import Highlighter from 'react-highlight-words'
 import Typewriter from 'typewriter-effect'

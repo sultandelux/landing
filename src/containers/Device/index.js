@@ -1,5 +1,5 @@
 import React, {useState } from "react";
-import logo from 'Assets/icons/logo.png'
+import logo from '@/assets/icons/logo.png'
 
 const Device = () => {
 

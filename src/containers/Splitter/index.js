@@ -1,7 +1,6 @@
 import Split from 'react-split-grid'
-import './index.scss'
-import code from 'Assets/images/code.png'
-import secondSide from 'Assets/images/secondSide.png'
+import code from '@/assets/images/code.png'
+import secondSide from '@/assets/images/secondSide.png'
 import BeforeAfterReact from 'before-after-react'
 import ReactBeforeSliderComponent from 'react-before-after-slider-component';
 import 'react-before-after-slider-component/dist/build.css';

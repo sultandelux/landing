@@ -20,6 +20,7 @@ import Clones from '@/components/Clones';
 import Features from '@/containers/Features';
 import Recents from '@/containers/Recents';
 import Team from '@/containers/Team';
+import Treadmill from '@/components/Treadmill';
 import Call from '@/components/Call';
 import Journey from '@/containers/Journey';
 import Slideout from '@/containers/Slideout';
@@ -27,6 +28,8 @@ import Differentation from '@/containers/Differentation';
 import Bubbles from '@/containers/Bubbles';
 import Tabs from '@/containers/Tabs';
 import Splitter from '@/containers/Splitter';
+import Price from '@/containers/Price';
+import Hero from '@/containers/Layout/Hero';
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const queryClient = new QueryClient();
@@ -91,23 +94,24 @@ const Home: NextPageWithLayout = () => {
         description="Fastest digital download template built with React, NextJS, TypeScript, React-Query and Tailwind CSS."
         url={routes.home}
       />
+      <Hero />
       <Tabs />
       <Clones />
       <Recents />
       <Differentation />
-      {/* <Treadmill /> */}
-      {/* <Call />
+      <Treadmill />
+      <Call />
       <Features />
       <Bubbles />
       <Team />
       <Journey />
       <Slideout />
       <div className=' flex relative mt-6 px-15 mx-auto max-w-4xl xl:px-50 justify-center ml- mb-4 max-w-lg overflow-hidden rounded-lg rounded-md rounded-sm'>
-        <Splitter />
-      </div> */}
+        {/* <Splitter /> */}
+      </div>
       {/* <PriceNew /> */}
       {/* <MultiForm /> */}
-      {/* <Price /> */}
+      <Price />
       {/* <Map /> */}
       {/* <Device /> */}
     </>

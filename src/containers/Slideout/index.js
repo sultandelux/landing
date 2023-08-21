@@ -1,9 +1,8 @@
-import image1 from 'Assets/images/mockup1.png'
-import image2 from 'Assets/images/mockup2.png'
-import image3 from 'Assets/images/mockup3.png'
+import image1 from '@/assets/images/mockup1.png'
+import image2 from '@/assets/images/mockup2.png'
+import image3 from '@/assets/images/mockup3.png'
 import { useState } from 'react'
 import ReactVisibilitySensor from 'react-visibility-sensor'
-import './index.scss'
 
 const Slideout = () => {
   const [isVisibleActive, setIsVisibleActive] = useState(true)

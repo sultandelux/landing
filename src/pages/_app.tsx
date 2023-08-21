@@ -27,10 +27,18 @@ import '@/assets/css/differentation.scss';
 import '@/assets/css/countup.scss';
 import '@/assets/css/infinite.scss';
 import '@/assets/css/technology.scss';
+import '@/assets/css/component.css';
+import '@/assets/css/price.scss';
+import '@/assets/css/bubble.scss';
+import '@/assets/css/journey.scss';
+import '@/assets/css/slideout.scss';
+import '@/assets/css/splitter.scss';
+import '@/assets/css/team.scss';
 
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import { getDirection } from '@/lib/constants';
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 const PrivateRoute = dynamic(() => import('@/layouts/_private-route'), {
   ssr: false,
@@ -61,6 +69,7 @@ function CustomApp({ Component, pageProps }: AppPropsWithLayout) {
           enableSystem={false}
         >
           <SearchProvider>
+            <ParallaxProvider>
             <CartProvider>
               <ModalProvider>
                 <AnimatePresence
@@ -76,14 +85,15 @@ function CustomApp({ Component, pageProps }: AppPropsWithLayout) {
                     ) : (
                       getLayout(<Component {...pageProps} />)
                     )}
-                    <SearchView />
+                    {/* <SearchView />
                     <ModalsContainer />
                     <DrawersContainer />
-                    <Toaster containerClassName="!top-16 sm:!top-3.5 !bottom-16 sm:!bottom-3.5" />
+                    <Toaster containerClassName="!top-16 sm:!top-3.5 !bottom-16 sm:!bottom-3.5" /> */}
                   </>
                 </AnimatePresence>
               </ModalProvider>
             </CartProvider>
+            </ParallaxProvider>
           </SearchProvider>
         </ThemeProvider>
       </Hydrate>

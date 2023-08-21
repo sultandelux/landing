@@ -7,7 +7,7 @@ const DownloadButton = () => {
 
   // const downloadFile = async () => {
   //   // fetch PDF
-  //   const response = await fetch('Assets/agreement.pdf'); // Provide the correct path to your file
+  //   const response = await fetch('@/assets/agreement.pdf'); // Provide the correct path to your file
   //   const blob = await response.blob();
   //   // download file
   //   saveAs(blob, 'agreement.pdf');

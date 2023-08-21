@@ -1,4 +1,3 @@
-import './styles.css';
 import Highlighter from 'react-highlight-words'
 
 export default function Treadmill() {

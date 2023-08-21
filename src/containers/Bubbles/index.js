@@ -1,12 +1,11 @@
 import { useTranslation } from 'react-i18next'
-import './index.scss'
-import bubbleCode from 'Assets/images/bubble/bubbleCode.png'
+import bubbleCode from '@/assets/images/bubble/bubbleCode.png'
 import { IoMdCheckmark } from 'react-icons/io'
-import bubble1 from 'Assets/images/bubble/2.png'
-import bubble2 from 'Assets/images/bubble/3.png'
-import bubble3 from 'Assets/images/bubble/4.png'
-import bubble4 from 'Assets/images/bubble/5.png'
-import bubble5 from 'Assets/images/bubble/6.png'
+import bubble1 from '@/assets/images/bubble/2.png'
+import bubble2 from '@/assets/images/bubble/3.png'
+import bubble3 from '@/assets/images/bubble/4.png'
+import bubble4 from '@/assets/images/bubble/5.png'
+import bubble5 from '@/assets/images/bubble/6.png'
 import { Parallax } from 'react-scroll-parallax'
 
 const bulletPoints = [

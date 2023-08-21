@@ -2,11 +2,10 @@ import { useTranslation } from 'react-i18next'
 import Highlighter from 'react-highlight-words'
 // import MaxtrixEffect from 'Components/MatrixEffect'
 // import { MatrixRainingLetters } from 'react-mdr'
-import red from 'Assets/images/packages/red.png'
-import blue from 'Assets/images/packages/blue.png'
-import pack from 'Assets/images/packages/pack.png'
-import './index.scss'
-import Zipper from 'Components/Zipper'
+import red from '@/assets/images/packages/red.png'
+import blue from '@/assets/images/packages/blue.png'
+import pack from '@/assets/images/packages/pack.png'
+import Zipper from '@/components/Zipper'
 
 const Price = () => {
   const { t } = useTranslation()

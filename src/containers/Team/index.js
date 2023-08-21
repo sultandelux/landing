@@ -1,11 +1,11 @@
-import profile from 'Assets/images/profile.png'
-import full from 'Assets/images/full.jpg'
-import pm from 'Assets/images/pm.png'
-import backend from 'Assets/images/backend.png'
-// import frontend from 'Assets/images/frontend.png'
-import designer from 'Assets/images/designer.png'
+import profile from '@/assets/images/profile.png'
+import full from '@/assets/images/full.jpg'
+import pm from '@/assets/images/pm.png'
+import backend from '@/assets/images/backend.png'
+// import frontend from '@/assets/images/frontend.png'
+import designer from '@/assets/images/designer.png'
 import { useTranslation } from 'react-i18next'
-import './index.scss'
+
 
 const Team = () => {
   const { t } = useTranslation()
@@ -119,45 +119,45 @@ const Team = () => {
                   data.map(el => {
                     return (
                       <div >
-                      <div key={el.url} className='card-content-profil pt-3 flex justify-between items-center'>
-                        <div className=' flex gap-x-3 items-center'>
-                          <img
-                            className='avatar w-20 h-20 rounded-full border-4 border-opacity-40'
-                            src={el.img}
-                            alt={el.alt}
-                          />
-                          <div className='card-name-user text-base'>
-                            <h3 className='font-semibold'>{el.title}</h3>
-                            <div className=' flex items-center gap-x-1'>
-                              <span className='h-3 w-3 rounded-full bg-green-500'></span>
-                              <span>{el.position}</span>
+                        <div key={el.url} className='card-content-profil pt-3 flex justify-between items-center'>
+                          <div className=' flex gap-x-3 items-center'>
+                            <img
+                              className='avatar w-20 h-20 rounded-full border-4 border-opacity-40'
+                              src={el.img}
+                              alt={el.alt}
+                            />
+                            <div className='card-name-user text-base'>
+                              <h3 className='font-semibold'>{el.title}</h3>
+                              <div className=' flex items-center gap-x-1'>
+                                <span className='h-3 w-3 rounded-full bg-green-500'></span>
+                                <span>{el.position}</span>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                        <div className='card-action'>
-                        <a
-                          href={el.url}
-                          className='flex items-center px-2 py-1 text-xs '
-                        >
-                          <div className='border border-black rounded-full inline-flex p-2 items-center justify-center'>
-                            <svg
-                              className='transform translate-y-1'
-                              height='22'
-                              viewBox='0 0 48 48'
-                              color='white'
-                              width='22'
+                          <div className='card-action'>
+                            <a
+                              href={el.url}
+                              className='flex items-center px-2 py-1 text-xs '
                             >
-                              <path d='M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l13.2 13c.5.4 1.1.6 1.7.3l16.6-8c.7-.3 1.6-.1 2 .5.4.7.2 1.6-.5 2l-15.6 9.9c-.5.3-.8 1-.7 1.6l4.6 19c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.5-.5.5-1.1.2-1.6z'></path>
-                            </svg>
+                              <div className='border border-black rounded-full inline-flex p-2 items-center justify-center'>
+                                <svg
+                                  className='transform translate-y-1'
+                                  height='22'
+                                  viewBox='0 0 48 48'
+                                  color='white'
+                                  width='22'
+                                >
+                                  <path d='M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l13.2 13c.5.4 1.1.6 1.7.3l16.6-8c.7-.3 1.6-.1 2 .5.4.7.2 1.6-.5 2l-15.6 9.9c-.5.3-.8 1-.7 1.6l4.6 19c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.5-.5.5-1.1.2-1.6z'></path>
+                                </svg>
+                              </div>
+                            </a>
                           </div>
-                        </a>
-                      </div>
-                      </div>
+                        </div>
 
-                    
-                    </div>
-                  )
-                })}
+
+                      </div>
+                    )
+                  })}
               </div>
             </div>
           </div>

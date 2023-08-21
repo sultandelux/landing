@@ -1,9 +1,9 @@
 import React from 'react'
-import Logo from 'Assets/images/logos/logo.png'
+import Logo from '@/assets/images/logos/logo.png'
 import Hero from './Hero'
 import { useTranslation } from 'react-i18next'
 import i18n from 'i18next'
-import Call from 'Assets/images/call.gif'
+import Call from '@/assets/images/call.gif'
 import ReactVisibilitySensor from 'react-visibility-sensor'
 
 export default function Header({ handleActive }) {
