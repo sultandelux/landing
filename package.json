@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "clean": "rimraf \"{node_modules,.next,.cache}\"",
-    "dev": "next dev -p 3009",
+    "dev": "next dev -p 3040",
     "build": "next build",
-    "start": "next start -p 3009",
+    "start": "next start -p 3040",
     "lint": "next lint",
     "prepare": "husky install",
     "pm2": "pm2 delete landing && yarn build && pm2 start yarn --interpreter bash --name landing -- start"
