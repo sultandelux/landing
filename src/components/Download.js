@@ -1,17 +1,9 @@
 import React from 'react';
-import { saveAs } from 'file-saver';
 import { useTranslation } from 'next-i18next';
 
 const DownloadButton = () => {
   const { t } = useTranslation();
 
-  // const downloadFile = async () => {
-  //   // fetch PDF
-  //   const response = await fetch('@/assets/agreement.pdf'); // Provide the correct path to your file
-  //   const blob = await response.blob();
-  //   // download file
-  //   saveAs(blob, 'agreement.pdf');
-  // };
 
   return (
     <a

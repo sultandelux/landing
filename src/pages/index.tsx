@@ -100,7 +100,7 @@ const Home: NextPageWithLayout = () => {
       <Recents />
       <Differentation />
       <Treadmill />
-      {/* <Call /> */}
+      <Call />
       <Features />
       <Bubbles />
       <Team />

@@ -8,8 +8,7 @@ import { useTranslation } from 'react-i18next'
 
 
 const Team = () => {
-  const { t } = useTranslation()
-
+  const { t } = useTranslation('translation')
   const data = [
     {
       img: profile,

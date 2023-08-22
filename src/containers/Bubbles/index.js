@@ -17,8 +17,7 @@ const bulletPoints = [
 ]
 
 const Bubbles = () => {
-  const { t } = useTranslation()
-
+  const { t } = useTranslation('translation')
   return (
     <div className='flex lg:px-12 justify-center items-center'>
       <div className='parallax-logos hidden lg:block relative'>

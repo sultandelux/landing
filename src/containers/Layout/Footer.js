@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import i18n from 'i18next';
-import DownloadButton from 'Components/Download';
+import DownloadButton from '@/components/Download';
 
 const Footer = (props) => {
   const { t } = useTranslation();
@@ -130,7 +130,7 @@ const Footer = (props) => {
                   ></path>
                 </svg>
               </a>
-              {/* <DownloadButton /> */}
+              <DownloadButton />
             </div>
             <p className="mt-4 text-base text-gray-400 md:order-1 md:mt-0">
               ©2018-2023 Xponend

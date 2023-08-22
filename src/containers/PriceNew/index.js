@@ -9,8 +9,7 @@ import './index.scss'
 import { FaPaperPlane } from 'react-icons/fa'
 
 const Price = () => {
-  const { t } = useTranslation()
-  const [togglePricing, setTogglePricing] = React.useState(true)
+  const { t } = useTranslation('translation')  const [togglePricing, setTogglePricing] = React.useState(true)
 
   return (
     <>

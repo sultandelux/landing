@@ -7,8 +7,7 @@ import Call from '@/assets/images/call.gif'
 import ReactVisibilitySensor from 'react-visibility-sensor'
 
 export default function Header({ handleActive }) {
-  const { t } = useTranslation()
-  const handleLangChange = (e) => i18n.changeLanguage(e.target.value)
+  const { t } = useTranslation('translation')  const handleLangChange = (e) => i18n.changeLanguage(e.target.value)
 
   const handleVisibilityChange = (isVisible) => {
     if (isVisible) {

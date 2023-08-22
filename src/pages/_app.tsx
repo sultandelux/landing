@@ -34,6 +34,7 @@ import '@/assets/css/journey.scss';
 import '@/assets/css/slideout.scss';
 import '@/assets/css/splitter.scss';
 import '@/assets/css/team.scss';
+import '@/assets/css/layout.scss';
 
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';

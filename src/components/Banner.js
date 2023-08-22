@@ -8,7 +8,7 @@ const Banner = (props) => {
     console.log(show)
     setShow(false)
   }
-  const { t } = useTranslation()
+  const { t } = useTranslation('translation')
 
   return (
     <>
@@ -23,9 +23,9 @@ const Banner = (props) => {
                 </span> */}
                 <a
                   href="https://t.me/sultandelux?text=hello"
-                // rootElement={document.getElementById("root")}
-                // text=""
-                className='underline'
+                  // rootElement={document.getElementById("root")}
+                  // text=""
+                  className='underline'
                 >{t('main.banner')}</a>
               </p>
             </div>

@@ -43,45 +43,45 @@ const Clones: NextPageWithLayout = () => {
             <span className='text-gray-800'> clone any app </span> you want: */}
           </h2>
           <div className="mt-8 flow-root lg:mt-10">
-            <div className="grid grid-cols-2 lg:-ml-7 lg:flex lg:flex-row lg:justify-between">
-              <div className="mt-4 flex flex-shrink-0 justify-center lg:ml-4 lg:flex-grow-0">
+            <div className=" flex-1 grid grid-cols-2 lg:-ml-7 align-middle lg:flex lg:flex-row items-center lg:justify-between">
+              <div className="mt-4 align-center  justify-center lg:ml-4 ">
                 <Image
-                  className="h-9 lg:h-10"
+                  // className="h-5lg:h-5"
                   src={udemy}
                   alt="онлайн курс платформа алматы"
                 />
               </div>
-              <div className="mt-4 flex flex-shrink-0 justify-center lg:ml-4 lg:flex-grow-0">
+              <div className="mt-4 align-center  justify-center lg:ml-4 ">
                 <Image
-                  className="h-6 lg:h-8"
+                  // className="h-6 lg:h-8"
                   src={indriver}
                   alt="такси приложение алматы"
                 />
               </div>
-              <div className="mt-4 flex flex-shrink-0 justify-center lg:ml-4 lg:flex-grow-0">
+              <div className="mt-4 align-center  justify-center lg:ml-4 ">
                 <Image
-                  className="h-6 lg:h-8"
+                  // className="h-6 lg:h-8"
                   src={koleso}
                   alt="нетфликс казахстан"
                 />
               </div>
-              <div className="mt-4 flex flex-shrink-0 justify-center lg:ml-4 lg:flex-grow-0">
+              <div className="mt-4 align-center  justify-center lg:ml-4 ">
                 <Image
-                  className="h-4 lg:h-7"
+                  // className="h-4 lg:h-7"
                   src={skillbox}
                   alt="алиекспрес алматы"
                 />
               </div>
-              <div className="mt-4 flex flex-shrink-0 justify-center lg:ml-4 lg:flex-grow-0">
+              <div className="mt-4 align-center  justify-center lg:ml-4 ">
                 <Image
-                  className="h-7 lg:h-9"
+                  // className="h-7 lg:h-9"
                   src={olx}
                   alt="олх копия алматы мобильное приложение"
                 />
               </div>
-              <div className="mt-4 flex flex-shrink-0 justify-center lg:ml-4 lg:flex-grow-0">
+              <div className="mt-4 align-center  justify-center lg:ml-4 ">
                 <Image
-                  className="h-6 lg:h-9"
+                  // className="h-6 lg:h-9"
                   src={glovo}
                   alt="приложение доставки алматы"
                 />

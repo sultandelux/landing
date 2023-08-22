@@ -1,8 +1,7 @@
 import { useTranslation } from 'react-i18next'
 
 const Journey = () => {
-  const { t } = useTranslation()
-
+  const { t } = useTranslation('translation')
   const data = [
     { id: 1, title: 'v.6.0.1', desc: 'Ready!' },
     { id: 2, title: 'v.5.0.1', desc: 'Production' },
@@ -13,8 +12,8 @@ const Journey = () => {
   ]
 
   return (
-    <>
-      <div className='flex items-center justify-center mt-2 text-xl font-bold text-black sm:text-2xl lg:text2xl'>
+    <div className=' relative items-center justify-center  '>
+      <div className='flex items-center justify-center  mt-2 text-xl font-bold text-black sm:text-2xl lg:text2xl'>
         {t('main.journey.title')}
       </div>
       <div className='wrap'>
@@ -38,7 +37,7 @@ const Journey = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -8,7 +8,7 @@ import pack from '@/assets/images/packages/pack.png'
 import Zipper from '@/components/Zipper'
 
 const Price = () => {
-  const { t } = useTranslation()
+  const { t } = useTranslation('translation')
   return (
     <>
       <div className='my-5 relative bg-gray-900 rounded-lg z-1'>

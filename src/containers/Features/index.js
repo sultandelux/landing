@@ -2,8 +2,7 @@ import { useTranslation } from 'react-i18next'
 import Highlighter from 'react-highlight-words'
 
 const Features = (props) => {
-  const { t } = useTranslation()
-
+  const { t } = useTranslation('translation')
   return (
     <>
       <div _style={{ maxHeight: '800px' }} className='overflow-y-auto'>

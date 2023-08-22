@@ -4,8 +4,7 @@ import Highlighter from 'react-highlight-words'
 import Typewriter from 'typewriter-effect'
 
 const Hero = () => {
-  const { t } = useTranslation()
-
+  const { t } = useTranslation('translation')
   return (
     <main className='relative mt-6 px-5 mx-auto max-w-7xl xl:px-20'>
       <div className='lg:grid lg:grid-cols-12  lg:gap'>

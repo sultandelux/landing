@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const runtimeCaching = require('next-pwa/cache');
 const { i18n } = require('./next-i18next.config');
+const path = require('path');
 
 const withPWA = require('next-pwa')({
   disable: process.env.NODE_ENV === 'development',
@@ -9,6 +10,9 @@ const withPWA = require('next-pwa')({
 });
 
 module.exports = withPWA({
+  sassOptions: {
+    includePaths: [path.join(__dirname, './src/assets/css/')],
+  },
   reactStrictMode: true,
   i18n: {
     locales: ['kk', 'en', 'ru'],
