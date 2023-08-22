@@ -100,13 +100,13 @@ const Home: NextPageWithLayout = () => {
       <Recents />
       <Differentation />
       <Treadmill />
-      <Call />
+      {/* <Call /> */}
       <Features />
       <Bubbles />
       <Team />
       <Journey />
       <Slideout />
-      <div className=' flex relative mt-6 px-15 mx-auto max-w-4xl xl:px-50 justify-center ml- mb-4 max-w-lg overflow-hidden rounded-lg rounded-md rounded-sm'>
+      <div className=" px-15 xl:px-50 ml- relative mx-auto mt-6 mb-4 flex max-w-4xl max-w-lg justify-center overflow-hidden rounded-lg rounded-md rounded-sm">
         {/* <Splitter /> */}
       </div>
       {/* <PriceNew /> */}

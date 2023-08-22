@@ -1,24 +1,24 @@
-import Creation from '@/assets/images/creation.png'
-import whatsappchat from '@/assets/images/whatsappchat.png'
-import whatsappicon from '@/assets/images/whatsapp-logo.png'
-import clickicon from '@/assets/images/click.png'
-import whatsappclick from '@/assets/images/whatsappclick.png'
-import { useTranslation } from 'react-i18next'
-import Highlighter from 'react-highlight-words'
-
+import Creation from '@/assets/images/creation.png';
+import whatsappchat from '@/assets/images/whatsappchat.png';
+import whatsappicon from '@/assets/images/whatsapp-logo.png';
+import clickicon from '@/assets/images/click.png';
+import whatsappclick from '@/assets/images/whatsappclick.png';
+import { useTranslation } from 'next-i18next';
+import Highlighter from 'react-highlight-words';
+import Image from 'next/image';
 export default function Call() {
-  const { t } = useTranslation()
+  const { t } = useTranslation();
   return (
     <>
-      <div className='  pt-3 flex relative  items-center justify-center overflow-hidden sm:pt-4 lg:pt-2'>
-        <div className='mx-auto max-w-md px-4 border-dashed border-2 border-gray-400 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl'>
+      <div className="  relative flex items-center  justify-center overflow-hidden pt-3 sm:pt-4 lg:pt-2">
+        <div className="mx-auto max-w-md border-2 border-dashed border-gray-400 px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
           <div>
             {/* <h2 className='text-base tracking-wider text-indigo-500 '>
               launch faster
             </h2> */}
-            <p className='my-7 text-2xl font-bold text-gray-600 tracking-tight lg:font-bold lg:text-3xl'>
+            <p className="my-7 text-2xl font-bold tracking-tight text-gray-600 lg:text-3xl lg:font-bold">
               <Highlighter
-                highlightClassName='text-red-600 font-bold'
+                highlightClassName="text-red-600 font-bold"
                 searchWords={[
                   'Қосымша одан да керемет',
                   'App is better',
@@ -32,33 +32,33 @@ export default function Call() {
               give you both. */}
             </p>
           </div>
-          <div className='mt-4'>
-            <div className='inline-flex rounded-md shadow'>
+          <div className="mt-4">
+            <div className="inline-flex rounded-md shadow">
               <a
-                href='https://forms.gle/NAjxkUHmrob2gCne6'
-                className='text-xl inline-flex bg-blue-100  items-center justify-center px-5 py-3 border border-transparent  font-bold rounded-md text-gray-900  hover:bg-gray-50'
+                href="https://forms.gle/NAjxkUHmrob2gCne6"
+                className="inline-flex items-center justify-center  rounded-md border border-transparent bg-blue-100 px-5 py-3  text-xl font-bold text-gray-900  hover:bg-gray-50"
               >
                 {t('main.call')}
                 <svg
-                  className='-mr-1 ml-3 h-5 w-5 text-gray-400'
-                  data-todo-x-description='Heroicon name: solid/external-link'
-                  xmlns='http://www.w3.org/2000/svg'
-                  viewBox='0 0 20 20'
-                  fill='currentColor'
-                  aria-hidden='true'
+                  className="-mr-1 ml-3 h-5 w-5 text-gray-400"
+                  data-todo-x-description="Heroicon name: solid/external-link"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
                 >
-                  <path d='M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z'></path>
-                  <path d='M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z'></path>
+                  <path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"></path>
+                  <path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z"></path>
                 </svg>
               </a>
             </div>
           </div>
-          <div className='inline-flex  col-auto items-center'>
-            <div className='flex mt-6 max-w-lg items-center justify-center self-center justify-self-center lg:pr-5 '>
-              <img
-                className=''
+          <div className="col-auto  inline-flex items-center">
+            <div className="mt-6 flex max-w-lg items-center justify-center self-center justify-self-center lg:pr-5 ">
+              <Image
+                className=""
                 src={Creation}
-                alt='Заказать мобильное приложение алматы казахстан'
+                alt="Заказать мобильное приложение алматы казахстан"
               />
             </div>
           </div>
@@ -96,5 +96,5 @@ export default function Call() {
         </div>
       </div>
     </>
-  )
+  );
 }
