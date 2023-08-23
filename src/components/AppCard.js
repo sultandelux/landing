@@ -1,8 +1,10 @@
+import Image from "next/image"
+
 const AppCard = ({ src, link, text, descript }) => {
   return (
     <div className='flex flex-col rounded-lg shadow-lg overflow-hidden'>
       <div className='flex-shrink-0'>
-        <img className='h-48 w-full object-cover' src={src} alt={text} />
+        <Image className='h-48 w-full object-cover' src={src} alt={text} />
       </div>
       <div className='bg-white p-6  flex-col justify-between'>
         <div className=''>

@@ -2,6 +2,7 @@ import React from 'react';
 import { useTranslation } from 'next-i18next';
 import i18n from 'i18next';
 import DownloadButton from '@/components/Download';
+import Image from 'next/image';
 
 const Footer = (props) => {
   const { t } = useTranslation();

@@ -5,6 +5,7 @@ import { useTranslation } from 'next-i18next'
 import i18n from 'i18next'
 import Call from '@/assets/images/call.gif'
 import ReactVisibilitySensor from 'react-visibility-sensor'
+import Image from 'next/image'
 
 export default function Header({ handleActive }) {
   const { t } = useTranslation('translation')  const handleLangChange = (e) => i18n.changeLanguage(e.target.value)
@@ -33,10 +34,10 @@ export default function Header({ handleActive }) {
             <div className='flex items-center justify-between'>
               <div className='flex items-center justify-center'>
                 <a href='/' className='flex items-center justify-center '>
-                  <img
+                  <Image
                     className='h-10'
                     src={Logo}
-                    alt='Xponend лого, разработка сайтов, приложений'
+                    alt='Xponend лого, разработка сайтов, приложений, Кастомная разработка Алматы'
                   />
                   <span className='text-xl font-bold tracking-tight'>
                     {/* Xponend */}
@@ -74,7 +75,7 @@ export default function Header({ handleActive }) {
                 </button>
               </div>
               <a className='md:hidden' href='tel:+77471240727'>
-                <img className='w-6 h-6' src={Call} />
+                <Image className='w-6 h-6' src={Call} alt='Поддержка и обслуживание сайтов Алматы' />
               </a>
               <a
                 href='/apps'

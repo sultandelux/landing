@@ -10,6 +10,7 @@ import imgBackground1 from './block.png'
 import imgBackground2 from './block.png'
 import turan from '@/assets/images/apps/turan.png'
 import './index.scss'
+import Image from 'next/image';
 
 
 export const MovingBlock = () => {
@@ -167,7 +168,7 @@ export const MovingBlockGsap = () => {
 					</div>
 					<div className='px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0'>
 						<div className='pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full'>
-							<img
+							<Image
 								className='rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 transform -skew-x-6 responsive-img'
 								src={imgBackground1}
 								alt='factchek.kz новостной портал алматы'
@@ -256,7 +257,7 @@ export const MovingBlockGsap = () => {
 					</div>
 					<div className='mt-1 sm:mt-16 lg:mt-0'>
 						<div className='pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full'>
-							<img
+							<Image
 								className='rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 transform responsive-img'
 								src={imgBackground2}
 								alt='factchek.kz новостной портал алматы'

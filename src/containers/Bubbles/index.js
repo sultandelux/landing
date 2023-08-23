@@ -7,6 +7,7 @@ import bubble3 from '@/assets/images/bubble/4.png'
 import bubble4 from '@/assets/images/bubble/5.png'
 import bubble5 from '@/assets/images/bubble/6.png'
 import { Parallax } from 'react-scroll-parallax'
+import Image from 'next/image'
 
 const bulletPoints = [
   'main.bubbles.point1',
@@ -21,7 +22,7 @@ const Bubbles = () => {
   return (
     <div className='flex lg:px-12 justify-center items-center'>
       <div className='parallax-logos hidden lg:block relative'>
-        <img src={bubbleCode} />
+        <Image src={bubbleCode} alt='веб разработка казахстан' />
         <Parallax
           className='particle-image one hidden lg:block'
           translateX={[-20, 70]}
@@ -29,7 +30,7 @@ const Bubbles = () => {
         >
           <div className='parallax-outer'>
             <div className='parallax-inner'>
-              <img src={bubble1} height={2} />
+              <Image src={bubble1} height={2} alt='веб разработка алматы, разработка сайтов' />
             </div>
           </div>
         </Parallax>
@@ -40,7 +41,7 @@ const Bubbles = () => {
         >
           <div className='parallax-outer'>
             <div className='parallax-inner'>
-              <img src={bubble2} />
+              <Image src={bubble2} alt='веб разработка, мобильное приложения, алматы, разработка сайтов' />
             </div>
           </div>
         </Parallax>
@@ -51,7 +52,7 @@ const Bubbles = () => {
         >
           <div className='parallax-outer'>
             <div className='parallax-inner'>
-              <img src={bubble3} />
+              <Image src={bubble3} alt='разработка, мобильное приложения, недорого' />
             </div>
           </div>
         </Parallax>
@@ -62,7 +63,7 @@ const Bubbles = () => {
         >
           <div className='parallax-outer'>
             <div className='parallax-inner'>
-              <img src={bubble4} />
+              <Image src={bubble4} alt='Разработка мобильных приложений Алматы' />
             </div>
           </div>
         </Parallax>
@@ -72,7 +73,7 @@ const Bubbles = () => {
         >
           <div className='parallax-outer'>
             <div className='parallax-inner'>
-              <img src={bubble5} />
+              <Image src={bubble5} alt='Программирование на заказ Казахстан, Создание сайтов в Алматы' />
             </div>
           </div>
         </Parallax>

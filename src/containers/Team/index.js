@@ -5,6 +5,7 @@ import backend from '@/assets/images/backend.png'
 // import frontend from '@/assets/images/frontend.png'
 import designer from '@/assets/images/designer.png'
 import { useTranslation } from 'next-i18next'
+import Image from 'next/image'
 
 
 const Team = () => {
@@ -120,7 +121,7 @@ const Team = () => {
                       <div >
                         <div key={el.url} className='card-content-profil pt-3 flex justify-between items-center'>
                           <div className=' flex gap-x-3 items-center'>
-                            <img
+                            <Image
                               className='avatar w-20 h-20 rounded-full border-4 border-opacity-40'
                               src={el.img}
                               alt={el.alt}
