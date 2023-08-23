@@ -1,13 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { PopupButton } from 'react-calendly'
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'next-i18next'
 
 const Banner = (props) => {
-  const [show, setShow] = useState(true)
+  const [show, setShow] = useState()
   const handleShow = () => {
     console.log(show)
     setShow(false)
   }
+  useEffect(() => {
+    setShow(true)
+  }, [])
   const { t } = useTranslation('translation')
 
   return (

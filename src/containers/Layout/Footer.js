@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'next-i18next';
 import i18n from 'i18next';
 import DownloadButton from '@/components/Download';
 

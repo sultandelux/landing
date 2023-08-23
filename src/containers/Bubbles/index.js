@@ -1,4 +1,4 @@
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'next-i18next'
 import bubbleCode from '@/assets/images/bubble/bubbleCode.png'
 import { IoMdCheckmark } from 'react-icons/io'
 import bubble1 from '@/assets/images/bubble/2.png'

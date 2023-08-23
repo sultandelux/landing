@@ -6,8 +6,13 @@ import whatsappclick from '@/assets/images/whatsappclick.png';
 import { useTranslation } from 'next-i18next';
 import Highlighter from 'react-highlight-words';
 import Image from 'next/image';
-export default function Call() {
-  const { t } = useTranslation();
+import type { GetStaticProps } from 'next';
+import type { NextPageWithLayout } from '@/types';
+import Layout from '@/layouts/_layout';
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+
+const Call: NextPageWithLayout = () => {
+  const { t } = useTranslation('translation');
   return (
     <>
       <div className="  relative flex items-center  justify-center overflow-hidden pt-3 sm:pt-4 lg:pt-2">
@@ -98,3 +103,19 @@ export default function Call() {
     </>
   );
 }
+
+Call.getLayout = function getLayout(page) {
+  return <Layout>{page}</Layout>;
+};
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale!, ['translation'])),
+    },
+    revalidate: 60, // In seconds
+  };
+};
+
+
+export default Call

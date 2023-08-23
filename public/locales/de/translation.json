@@ -1,242 +1,242 @@
-  {
-    "main": {
-      "hero": {
-        "menu1": "Projects",
-        "mini": "Your future team from",
-        "head": "Startup Studio",
-        "line1": "Demo in 3-4 weeks",
-        "line2": "Fixed price after tech discuss",
-        "line3": "3 month free tech support",
-        "line4": "Individual dev team",
-        "call": "Leave Request",
-        "rabbit": "follow the white rabbit...",
-        "agreement": "Commercial Agreement"
-      },
-      "tabs": {
-        "title1": "Buy digital product and deploy right now",
-        "desc1": "Доступ к различным продактам, включая лендинги, мобильные приложения, графические и логотипы от профессиональных продавцов",
-        "title2": "Станьте профессиональным продавцом",
-        "desc2": "Публикуйте свои веб-мобильные приложения, графические и видео-визуальные работы, увеличивайте свои продажи в нашем цифровом маркетплейсе"
-      },
-      "clone": "We are ready to clone any app you want:",
-      "slogan": "Website is good. App is better. We give you both.",
-      "call": "Start a new project",
-      "feature1": {
-        "title": "All free perks",
-        "text": "Free hosting service, deployment on servers, publishing on Google Play, AppStore. Free domain configurations."
-      },
-      "alert": {
-        "info": "We launched a marketplace for digital works (sites, apps and art)",
-        "call": "Check out"
-      },
-      "banner": "Get a free consulting",
-      "feature2": {
-        "title": "All on agreement",
-        "text": "Legal agreement. Free technical requirements drafting. Online zoom meeting and agreement signature possibility."
-      },
-      "feature3": {
-        "title": "All inclusive",
-        "text": "Admin Dashboard + iOS and Android app made with React Native + Web application + Free Landing Page"
-      },
-      "recents": {
-        "mini": "Recent projects",
-        "jeted": {
-          "title": "Online course education platform. Jeted.kz",
-          "description": "Admin, Web app, Android app with Online quiz, certificate features.",
-          "stats": {
-            "line1": "Total Students",
-            "line2": "Course number",
-            "line3": "Mobile Installs"
-          }
-        },
-        "factchek": {
-          "title": "News, blogs. Facktchek.kz",
-          "description": "Various Rubrics. Donation feature. Localization. Blog page and Blog website design. News page and News website design. Magazine website design. Post Slider and Carousel."
-        },
-        "ecomero": {
-          "title": "Ecomero. Shopping platform + Admin + iOS & Android apps",
-          "description": "Store management. Product categories, delivery, online payment, subcategories. Coupon feature."
-        },
-        "turan": {
-          "title": "Turan-Auto. Auto Shopping platform + Admin + iOS & Android apps",
-          "description": "Store management. Product categories, delivery, online payment, subcategories. Coupon feature."
-        },
-        "more": "More web-mobile apps"
-      },
-      "team": {
-        "title": "Team of App makers",
-        "text": "We got app professionals to realize your app ideas."
-      },
-      "price": {
-        "title": "Red or Blue ?",
-        "standard": {
-          "name": "STANDARD",
-          "initial": "initial amount",
-          "description": "Landing pages, corparate sites for small businesses.",
-          "feature1": "Personal logo, SEO",
-          "feature2": "Responsive website, max 10 pages",
-          "feature3": "Content fill, up to 3 languages",
-          "feature4": "Lead generator, Telegram bot",
-          "call": "Start with standard"
-        },
-        "enterprise": {
-          "name": "ENTERPRISE",
-          "initial": "initial amount",
-          "description": "Platform, shopping etc. for enterprises. Admin + Web + Android & iOS apps.",
-          "feature1": "Business Logo, UI, UX design",
-          "feature2": "Web-mobile apps with responsive design",
-          "feature3": "Testing, bug fixes. Google Play, AppStore publishings",
-          "feature4": "Hosting, domain configurations",
-          "call": "Start with enterprises"
+{
+  "main": {
+    "hero": {
+      "menu1": "Projects",
+      "mini": "Your future team from",
+      "head": "Startup Studio",
+      "line1": "Demo in 3-4 weeks",
+      "line2": "Fixed price after tech discuss",
+      "line3": "3 month free tech support",
+      "line4": "Individual dev team",
+      "call": "Leave Request",
+      "rabbit": "follow the white rabbit...",
+      "agreement": "Commercial Agreement"
+    },
+    "tabs": {
+      "title1": "Buy digital product and deploy right now",
+      "desc1": "Доступ к различным продактам, включая лендинги, мобильные приложения, графические и логотипы от профессиональных продавцов",
+      "title2": "Станьте профессиональным продавцом",
+      "desc2": "Публикуйте свои веб-мобильные приложения, графические и видео-визуальные работы, увеличивайте свои продажи в нашем цифровом маркетплейсе"
+    },
+    "clone": "We are ready to clone any app you want:",
+    "slogan": "Website is good. App is better. We give you both.",
+    "call": "Start a new project",
+    "feature1": {
+      "title": "All free perks",
+      "text": "Free hosting service, deployment on servers, publishing on Google Play, AppStore. Free domain configurations."
+    },
+    "alert": {
+      "info": "We launched a marketplace for digital works (sites, apps and art)",
+      "call": "Check out"
+    },
+    "banner": "Get a free consulting",
+    "feature2": {
+      "title": "All on agreement",
+      "text": "Legal agreement. Free technical requirements drafting. Online zoom meeting and agreement signature possibility."
+    },
+    "feature3": {
+      "title": "All inclusive",
+      "text": "Admin Dashboard + iOS and Android app made with React Native + Web application + Free Landing Page"
+    },
+    "recents": {
+      "mini": "Recent projects",
+      "jeted": {
+        "title": "Online course education platform. Jeted.kz",
+        "description": "Admin, Web app, Android app with Online quiz, certificate features.",
+        "stats": {
+          "line1": "Total Students",
+          "line2": "Course number",
+          "line3": "Mobile Installs"
         }
       },
-      "count_stats": {
-        "title": "Some Count Stats Title"
-      },
-      "journey": {
-        "title": "Version Control of your app"
-      },
-      "differentation": {
-        "title1": "App Development",
-        "desc1": "Description 1.",
-        "title2": "Customization",
-        "desc2": "Description 2.",
-        "title3": "UX Planning",
-        "desc3": "Description 3.",
-        "title4": "Cloud Storage",
-        "desc4": "Description 4.",
-        "title5": "Customer Support",
-        "desc5": "Description 5.",
-        "title6": "10 Times Award",
-        "desc6": "Description 6."
-      },
-      "technology": {
-        "title": "Technology used"
-      },
-      "bubbles": {
-        "title": "Creating digital products from scratch",
-        "desc": "We help find and define that one idea",
-        "point1": "Prepare a product launch plan",
-        "point2": "Develop MVP and conduct closed beta testing",
-        "point3": "Launch MVP to market",
-        "point4": "Scale and develop the product",
-        "point5": "Result: A functional business."
-      },
-      "mission": "From Undercorn to Unicorn",
-      "address": "Based in Kazakhstan, Almaty, 11-mikrorayon, 3/1, BC Аяла",
-      "language": "LANGUAGE",
-      "en": "English",
-      "kk": "Kazakh",
-      "ru": "Russian"
-    },
-    "apps": {
-      "home": "Home",
-      "title": "Apps",
-      "description": "Showcase with apps, sites, scripts",
-      "jeted": {
-        "tech": "Android, iOS, Web + Admin",
-        "link": "Jeted.kz",
-        "descript": "Online course education platform. Udemy clone"
-      },
-      "bloomzed": {
-        "tech": "Android, iOS",
-        "link": "bloomzed.kz",
-        "descript": "Bloomzed application for financial transactions. Kaspi clone"
-      },
-      "taxi": {
-        "tech": "Android, iOS",
-        "link": "taxi.com",
-        "descript": "Taxi app. Uber clone"
-      },
-      "delivery": {
-        "tech": "Android, iOS",
-        "link": "delivery.com",
-        "descript": "Delivery application. Indriver clone"
-      },
-      "homester": {
-        "tech": "Android, iOS",
-        "link": "homester.com",
-        "descript": "Home, apartment sell/buy application. Krisha clone"
-      },
-      "opera": {
-        "tech": "Android, iOS",
-        "link": "opera.ru",
-        "descript": "Opera application. Eventbrite clone"
-      },
-      "investorda": {
-        "tech": "Laravel Web + Admin",
-        "link": "Investorda.kz",
-        "descript": "Investorda application. Financial investment website"
-      },
-      "offen": {
-        "tech": "Wordpress Web + Admin",
-        "link": "offenegesellschaft.org",
-        "descript": "Offenegesellschaf. Magazine webiste"
-      },
-      "beauty": {
-        "tech": "PHP Web + Admin",
-        "link": "beautyindustry.kz",
-        "descript": "ҚАЗАҚСТАН РЕСПУБЛИКАСЫНЫҢ СҰЛУЛЫҚ ӨНЕРКӘСІБІНІҢ ҚАУЫМДАСТЫҒЫ web. Industry web"
-      },
-      "almaty": {
-        "tech": "PHP Web + Admin",
-        "link": "almaty-akshamy.kz",
-        "descript": "Алматы-ақшамы. News portal"
-      },
-      "caspian": {
-        "tech": "Wordpress Web + Admin",
-        "link": "caspianlife.kz",
-        "descript": "Caspian Life. Entertainment, news portal"
-      },
-      "mediaschool": {
-        "tech": "Wordpress Web + Admin",
-        "link": "mediaschool.kz",
-        "descript": "Курс ONLINE MediaSchool"
-      },
-      "presenter": {
-        "tech": "Android, iOS, Web + Admin",
-        "link": "presenter.ru",
-        "descript": "Presenter application. Entertainment app"
+      "factchek": {
+        "title": "News, blogs. Facktchek.kz",
+        "description": "Various Rubrics. Donation feature. Localization. Blog page and Blog website design. News page and News website design. Magazine website design. Post Slider and Carousel."
       },
       "ecomero": {
-        "tech": "Android, iOS, Web + Admin",
-        "link": "Ecomero",
-        "descript": "Shopping platform"
+        "title": "Ecomero. Shopping platform + Admin + iOS & Android apps",
+        "description": "Store management. Product categories, delivery, online payment, subcategories. Coupon feature."
       },
-      "factcheck": {
-        "tech": "Web + Admin",
-        "link": "Factcheck.kz",
-        "descript": "News, Blogging. Donation feature."
+      "turan": {
+        "title": "Turan-Auto. Auto Shopping platform + Admin + iOS & Android apps",
+        "description": "Store management. Product categories, delivery, online payment, subcategories. Coupon feature."
       },
-      "kokaprint": {
-        "tech": "Web + Admin",
-        "link": "Kokaprint.kz",
-        "descript": "Shopping site. Get price feature."
+      "more": "More web-mobile apps"
+    },
+    "team": {
+      "title": "Team of App makers",
+      "text": "We got app professionals to realize your app ideas."
+    },
+    "price": {
+      "title": "Red or Blue ?",
+      "standard": {
+        "name": "STANDARD",
+        "initial": "initial amount",
+        "description": "Landing pages, corparate sites for small businesses.",
+        "feature1": "Personal logo, SEO",
+        "feature2": "Responsive website, max 10 pages",
+        "feature3": "Content fill, up to 3 languages",
+        "feature4": "Lead generator, Telegram bot",
+        "call": "Start with standard"
       },
-      "dict": {
-        "tech": "Android + iOS",
-        "link": "Kazakh names dictionary",
-        "descript": "Kazakh names with etymology."
-      },
-      "kontakty": {
-        "tech": "Android, iOS, Web + Admin",
-        "link": "Kontakty.kz",
-        "descript": "Share your contacts."
-      },
-      "skillzhasapp": {
-        "tech": "Android, iOS, Web + Admin",
-        "link": "Skill Zhasapp",
-        "descript": "Coursera clone"
-      },
-      "kazfarm": {
-        "tech": "Web + Admin",
-        "link": "KazFarm.kz, KazAgro.kz",
-        "descript": "Exhibition"
-      },
-      "natizheli": {
-        "tech": "Web",
-        "link": "Natizheli Forum",
-        "descript": "Tilda forum page"
+      "enterprise": {
+        "name": "ENTERPRISE",
+        "initial": "initial amount",
+        "description": "Platform, shopping etc. for enterprises. Admin + Web + Android & iOS apps.",
+        "feature1": "Business Logo, UI, UX design",
+        "feature2": "Web-mobile apps with responsive design",
+        "feature3": "Testing, bug fixes. Google Play, AppStore publishings",
+        "feature4": "Hosting, domain configurations",
+        "call": "Start with enterprises"
       }
+    },
+    "count_stats": {
+      "title": "Some Count Stats Title"
+    },
+    "journey": {
+      "title": "Version Control of your app"
+    },
+    "differentation": {
+      "title1": "App Development",
+      "desc1": "Description 1.",
+      "title2": "Customization",
+      "desc2": "Description 2.",
+      "title3": "UX Planning",
+      "desc3": "Description 3.",
+      "title4": "Cloud Storage",
+      "desc4": "Description 4.",
+      "title5": "Customer Support",
+      "desc5": "Description 5.",
+      "title6": "10 Times Award",
+      "desc6": "Description 6."
+    },
+    "technology": {
+      "title": "Technology used"
+    },
+    "bubbles": {
+      "title": "Creating digital products from scratch",
+      "desc": "We help find and define that one idea",
+      "point1": "Prepare a product launch plan",
+      "point2": "Develop MVP and conduct closed beta testing",
+      "point3": "Launch MVP to market",
+      "point4": "Scale and develop the product",
+      "point5": "Result: A functional business."
+    },
+    "mission": "From Undercorn to Unicorn",
+    "address": "Based in Kazakhstan, Almaty, 11-mikrorayon, 3/1, BC Аяла",
+    "language": "LANGUAGE",
+    "en": "English",
+    "kk": "Kazakh",
+    "ru": "Russian"
+  },
+  "apps": {
+    "home": "Home",
+    "title": "Apps",
+    "description": "Showcase with apps, sites, scripts",
+    "jeted": {
+      "tech": "Android, iOS, Web + Admin",
+      "link": "Jeted.kz",
+      "descript": "Online course education platform. Udemy clone"
+    },
+    "bloomzed": {
+      "tech": "Android, iOS",
+      "link": "bloomzed.kz",
+      "descript": "Bloomzed application for financial transactions. Kaspi clone"
+    },
+    "taxi": {
+      "tech": "Android, iOS",
+      "link": "taxi.com",
+      "descript": "Taxi app. Uber clone"
+    },
+    "delivery": {
+      "tech": "Android, iOS",
+      "link": "delivery.com",
+      "descript": "Delivery application. Indriver clone"
+    },
+    "homester": {
+      "tech": "Android, iOS",
+      "link": "homester.com",
+      "descript": "Home, apartment sell/buy application. Krisha clone"
+    },
+    "opera": {
+      "tech": "Android, iOS",
+      "link": "opera.ru",
+      "descript": "Opera application. Eventbrite clone"
+    },
+    "investorda": {
+      "tech": "Laravel Web + Admin",
+      "link": "Investorda.kz",
+      "descript": "Investorda application. Financial investment website"
+    },
+    "offen": {
+      "tech": "Wordpress Web + Admin",
+      "link": "offenegesellschaft.org",
+      "descript": "Offenegesellschaf. Magazine webiste"
+    },
+    "beauty": {
+      "tech": "PHP Web + Admin",
+      "link": "beautyindustry.kz",
+      "descript": "ҚАЗАҚСТАН РЕСПУБЛИКАСЫНЫҢ СҰЛУЛЫҚ ӨНЕРКӘСІБІНІҢ ҚАУЫМДАСТЫҒЫ web. Industry web"
+    },
+    "almaty": {
+      "tech": "PHP Web + Admin",
+      "link": "almaty-akshamy.kz",
+      "descript": "Алматы-ақшамы. News portal"
+    },
+    "caspian": {
+      "tech": "Wordpress Web + Admin",
+      "link": "caspianlife.kz",
+      "descript": "Caspian Life. Entertainment, news portal"
+    },
+    "mediaschool": {
+      "tech": "Wordpress Web + Admin",
+      "link": "mediaschool.kz",
+      "descript": "Курс ONLINE MediaSchool"
+    },
+    "presenter": {
+      "tech": "Android, iOS, Web + Admin",
+      "link": "presenter.ru",
+      "descript": "Presenter application. Entertainment app"
+    },
+    "ecomero": {
+      "tech": "Android, iOS, Web + Admin",
+      "link": "Ecomero",
+      "descript": "Shopping platform"
+    },
+    "factcheck": {
+      "tech": "Web + Admin",
+      "link": "Factcheck.kz",
+      "descript": "News, Blogging. Donation feature."
+    },
+    "kokaprint": {
+      "tech": "Web + Admin",
+      "link": "Kokaprint.kz",
+      "descript": "Shopping site. Get price feature."
+    },
+    "dict": {
+      "tech": "Android + iOS",
+      "link": "Kazakh names dictionary",
+      "descript": "Kazakh names with etymology."
+    },
+    "kontakty": {
+      "tech": "Android, iOS, Web + Admin",
+      "link": "Kontakty.kz",
+      "descript": "Share your contacts."
+    },
+    "skillzhasapp": {
+      "tech": "Android, iOS, Web + Admin",
+      "link": "Skill Zhasapp",
+      "descript": "Coursera clone"
+    },
+    "kazfarm": {
+      "tech": "Web + Admin",
+      "link": "KazFarm.kz, KazAgro.kz",
+      "descript": "Exhibition"
+    },
+    "natizheli": {
+      "tech": "Web",
+      "link": "Natizheli Forum",
+      "descript": "Tilda forum page"
     }
   }
+}

@@ -8,3 +8,6 @@ declare module 'little-state-machine' {
     password: string;
   }
 }
+
+
+declare module 'react-highlight-words';

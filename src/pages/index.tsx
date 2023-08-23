@@ -27,9 +27,11 @@ import Slideout from '@/containers/Slideout';
 import Differentation from '@/containers/Differentation';
 import Bubbles from '@/containers/Bubbles';
 import Tabs from '@/containers/Tabs';
-import Splitter from '@/containers/Splitter';
 import Price from '@/containers/Price';
 import Hero from '@/containers/Layout/Hero';
+import Splitter from '@/containers/Splitter';
+import { useEffect } from 'react';
+import { useTheme } from 'next-themes';
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const queryClient = new QueryClient();
@@ -87,6 +89,12 @@ function Products() {
 
 // TODO: SEO text gulo translation ready hobe kina? r seo text gulo static thakbe or dynamic?
 const Home: NextPageWithLayout = () => {
+
+  const { setTheme } = useTheme()
+  
+  useEffect(() => {
+    setTheme('light')
+  }, [])
   return (
     <>
       <Seo

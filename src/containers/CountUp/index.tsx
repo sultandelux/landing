@@ -13,7 +13,8 @@ import {
 } from 'react';
 import { useEffect, useState } from 'react';
 
-const CountStats = () => {
+const CountStats: NextPageWithLayout = () => {
+
   const { t } = useTranslation('translation');
   const countUpRef = useRef<HTMLParagraphElement>(null);
 
@@ -23,17 +24,11 @@ const CountStats = () => {
         <CountUp
           end={30}
           useEasing={true}
-          duration={3}
+          duration={10}
           redraw={true}
           enableScrollSpy={true}
           scrollSpyOnce={true}
-        >
-          {({ countUpRef: localCountUpRef, start }) => (
-            <p className="count-up" ref={countUpRef}>
-              +
-            </p>
-          )}
-        </CountUp>
+        />
         <p className="count-up">+</p>
       </div>
       <div className="mt-2 flex items-center justify-center">
@@ -43,17 +38,7 @@ const CountStats = () => {
   );
 };
 
-CountStats.getLayout = function getLayout(
-  page:
-    | string
-    | number
-    | boolean
-    | ReactElement<any, string | JSXElementConstructor<any>>
-    | ReactFragment
-    | ReactPortal
-    | null
-    | undefined
-) {
+CountStats.getLayout = function getLayout(page) {
   return <Layout>{page}</Layout>;
 };
 
@@ -65,5 +50,6 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => {
     revalidate: 60, // In seconds
   };
 };
+
 
 export default CountStats;

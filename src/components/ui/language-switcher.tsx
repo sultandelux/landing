@@ -63,10 +63,9 @@ export default function LanguageSwitcher() {
                 <Listbox.Option
                   key={index}
                   className={({ active }) =>
-                    `${
-                      active
-                        ? 'bg-gray-100 text-amber-900 dark:bg-dark-600 dark:text-white'
-                        : 'text-gray-900 dark:text-white'
+                    `${active
+                      ? 'bg-gray-100 text-amber-900 dark:bg-dark-600 dark:text-white'
+                      : 'text-gray-900 dark:text-white'
                     }
 												relative cursor-pointer select-none py-2 px-3`
                   }
@@ -76,17 +75,15 @@ export default function LanguageSwitcher() {
                     <span className="flex items-center">
                       <span className="text-xl">{option.icon}</span>
                       <span
-                        className={`${
-                          selected ? 'font-medium' : 'font-normal'
-                        } block truncate ltr:ml-1.5 rtl:mr-1.5`}
+                        className={`${selected ? 'font-medium' : 'font-normal'
+                          } block truncate ltr:ml-1.5 rtl:mr-1.5`}
                       >
                         {t(option.name)}
                       </span>
                       {selected ? (
                         <span
-                          className={`${
-                            active && 'text-amber-600 dark:text-dark-900'
-                          }
+                          className={`${active && 'text-amber-600 dark:text-dark-900'
+                            }
                                  absolute inset-y-0 flex items-center ltr:left-0 ltr:pl-3 rtl:right-0 rtl:pr-3`}
                         />
                       ) : null}

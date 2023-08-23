@@ -35,6 +35,7 @@ import '@/assets/css/slideout.scss';
 import '@/assets/css/splitter.scss';
 import '@/assets/css/team.scss';
 import '@/assets/css/layout.scss';
+import '@/assets/css/priceNew.scss';
 
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
@@ -71,29 +72,29 @@ function CustomApp({ Component, pageProps }: AppPropsWithLayout) {
         >
           <SearchProvider>
             <ParallaxProvider>
-            <CartProvider>
-              <ModalProvider>
-                <AnimatePresence
-                  initial={false}
-                  onExitComplete={() => window.scrollTo(0, 0)}
-                >
-                  <>
-                    <DefaultSeo />
-                    {authenticationRequired ? (
-                      <PrivateRoute>
-                        {getLayout(<Component {...pageProps} />)}
-                      </PrivateRoute>
-                    ) : (
-                      getLayout(<Component {...pageProps} />)
-                    )}
-                    {/* <SearchView />
+              <CartProvider>
+                <ModalProvider>
+                  <AnimatePresence
+                    initial={false}
+                    onExitComplete={() => window.scrollTo(0, 0)}
+                  >
+                    <>
+                      <DefaultSeo />
+                      {authenticationRequired ? (
+                        <PrivateRoute>
+                          {getLayout(<Component {...pageProps} />)}
+                        </PrivateRoute>
+                      ) : (
+                        getLayout(<Component {...pageProps} />)
+                      )}
+                      {/* <SearchView />
                     <ModalsContainer />
                     <DrawersContainer />
                     <Toaster containerClassName="!top-16 sm:!top-3.5 !bottom-16 sm:!bottom-3.5" /> */}
-                  </>
-                </AnimatePresence>
-              </ModalProvider>
-            </CartProvider>
+                    </>
+                  </AnimatePresence>
+                </ModalProvider>
+              </CartProvider>
             </ParallaxProvider>
           </SearchProvider>
         </ThemeProvider>

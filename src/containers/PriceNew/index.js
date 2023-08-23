@@ -1,11 +1,10 @@
 import React from 'react'
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'next-i18next'
 // import Highlighter from 'react-highlight-words'
 // import MaxtrixEffect from 'Components/MatrixEffect'
 // import { MatrixRainingLetters } from 'react-mdr'
 // import red from '@/assets/images/packages/red.png'
 // import pack from '@/assets/images/packages/pack.png'
-import './index.scss'
 import { FaPaperPlane } from 'react-icons/fa'
 
 const Price = () => {

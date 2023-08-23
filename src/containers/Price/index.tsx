@@ -1,13 +1,20 @@
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'next-i18next'
 import Highlighter from 'react-highlight-words'
-// import MaxtrixEffect from 'Components/MatrixEffect'
+// import MaxtrixEffect from '@/components/MatrixEffect'
 // import { MatrixRainingLetters } from 'react-mdr'
+import type { GetStaticProps } from 'next'
+import type { NextPageWithLayout } from '@/types'
+import Layout from '@/layouts/_layout'
+
 import red from '@/assets/images/packages/red.png'
 import blue from '@/assets/images/packages/blue.png'
 import pack from '@/assets/images/packages/pack.png'
 import Zipper from '@/components/Zipper'
+import Image from 'next/image'
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
-const Price = () => {
+
+const Price: NextPageWithLayout = () => {
   const { t } = useTranslation('translation')
   return (
     <>
@@ -36,10 +43,10 @@ const Price = () => {
             {/* <div className='absolute inset-0 h-3/4 bg-gray-300 z-100'></div> */}
             <div className='relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-0'>
               <div className='max-w-md mx-auto space-y-10 lg:max-w-4xl lg:grid lg:grid-cols-2 lg:gap-8 lg:space-y-0'>
-                <div className='flex relative flex-col rounded rounded-lg shadow-lg overflow-visible '>
+                <div className='flex relative flex-col rounded-lg shadow-lg overflow-visible '>
 
 
-                  <img src={blue} className='absolute blue-pill overflow-visible z-10' />
+                  <Image alt={'blue pill matrix сколько стоит мобильное прилоежние '} src={blue} className='absolute blue-pill overflow-visible z-10' />
 
                   <div className='px-3 py-3 bg-white rounded-t-lg sm:p-10 sm:pb-3'>
                     <div>
@@ -183,8 +190,9 @@ const Price = () => {
                   </div>
                 </div>
                 <div className='flex relative flex-col bg-indigo-100 rounded-t-lg shadow-lg'>
-                  <img
+                  <Image
                     src={red}
+                    alt={'red pill matrix сколько стоит мобильное прилоежние в Алматы'}
                     className='absolute red-pill lg:-top-0 lg:right-0 sm:top-0 sm:-right-10  sm:mr-0 overflow-visible z-10'
                   />
 
@@ -378,5 +386,20 @@ const Price = () => {
     </>
   )
 }
+
+Price.getLayout = function getLayout(page) {
+  return <Layout>{page}</Layout>;
+};
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale!, ['translation'])),
+    },
+    revalidate: 60, // In seconds
+  };
+};
+
+
 
 export default Price

@@ -9,12 +9,13 @@ function withOpacity(variableName) {
 }
 module.exports = {
   content: [
+    './public/index.html',
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
     './src/containers/**/*.{js,ts,jsx,tsx}',
     './src/layouts/**/*.{js,ts,jsx,tsx}',
   ],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
       xs: '480px',
@@ -84,5 +85,6 @@ module.exports = {
       },
     },
   },
-  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
+  plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms'), require('tailwind-scrollbar-hide'), require('tailwindcss-bg-patterns')],
 };
+

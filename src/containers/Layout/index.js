@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Header from './Header'
 import Footer from './Footer'
 import './index.scss'
-import MaxtrixEffect from 'Components/MatrixEffect'
+import MaxtrixEffect from '@/components/MatrixEffect'
 
 const Layout = (props) => {
   const [active, setActive] = useState(true)
